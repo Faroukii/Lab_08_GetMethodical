@@ -307,6 +307,7 @@ public class SafeInput {
 
 
  class GetUserName
+     //Username
 {
     public static void main(String[] args)
     {
@@ -327,7 +328,7 @@ public class SafeInput {
 
 
  class FavNumbers {
-
+//Favorite number
     public static void main(String[] args) {
         Scanner pipe = new Scanner(System.in);
         int favInt= Integer.parseInt(SafeInput.getNonZeroLenString(pipe, "Enter your favorite integer"));
@@ -348,6 +349,7 @@ public class SafeInput {
 
 
  class BirthDateTime {
+    //Birthday date and time
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -406,6 +408,7 @@ public class SafeInput {
 
 
 class Reggie {
+    //Reggie
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -439,6 +442,7 @@ class Reggie {
 
 
 class CheckOut {
+    //Checkout
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double totalCost = 0;
@@ -473,7 +477,7 @@ class CheckOut {
     }
 }
 class PrettyHeader {
-
+//Pretty message maker
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         String prettyMessage = "";
@@ -484,7 +488,7 @@ class PrettyHeader {
 
 }
  class CtoFTableDisplay {
-
+//Celsius to Fahrenheit converter
     public static void main(String[] args) {
         System.out.println("Celsius\tFahrenheit");
         for (double celsius = -100; celsius <= 100; celsius++) {
